@@ -1,0 +1,100 @@
+body{
+    background:#eef2ff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background:#1d3557 !important;
+}
+
+.navbar-brand{
+    font-weight:bold;
+    font-size:28px;
+}
+
+.nav-link{
+    color:white !important;
+    font-size:18px;
+    margin-left:15px;
+}
+
+.hero{
+    height:85vh;
+    background:linear-gradient(rgba(29,53,87,.8),rgba(69,123,157,.8)),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1500&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content{
+    width:70%;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:20px;
+    margin-bottom:35px;
+}
+
+.feature-card{
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    margin-top:30px;
+    box-shadow:0px 5px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.feature-card h3{
+    color:#1d3557;
+    margin-bottom:15px;
+}
+
+.container{
+    margin-bottom:40px;
+}
+
+table{
+    background:white;
+}
+
+table th{
+    background:#1d3557 !important;
+    color:white;
+}
+
+input{
+    margin-bottom:15px;
+    border-radius:8px !important;
+}
+
+.btn-primary{
+    background:#1d3557;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#457b9d;
+}
+
+.page-title{
+    text-align:center;
+    margin:30px;
+    color:#1d3557;
+    font-weight:bold;
+}
