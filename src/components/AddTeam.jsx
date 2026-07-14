@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Navbar from "./Navbar";
 
 
 const AddTeam = () => {
@@ -37,7 +38,7 @@ const AddTeam = () => {
 
   return (
     <div>
-    
+    <Navbar />
 
       <div className="container mt-4">
         <h2 className="text-center mb-4">Hackathon Team Registration</h2>
