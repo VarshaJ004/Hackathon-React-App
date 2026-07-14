@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 const Navbar = () => {
 
@@ -16,9 +17,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse">
 
           <ul className="navbar-nav ms-auto">
-
-            <li className="nav-item">
+          <li className="nav-item">
               <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/add">
                 Add Team
               </Link>
             </li>
